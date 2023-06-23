@@ -53,6 +53,8 @@ class _ButtonScreenState extends State<ButtonScreen> {
     const Button12("button"),
   ];
 
+  final List<Widget> customTextButtonColor = [];
+
   List<Color?> customAnimatedButtonColor = [null, null];
 
   @override
@@ -278,7 +280,7 @@ class _ButtonScreenState extends State<ButtonScreen> {
                                   favProviderModel
                                       .add(customTextButtonIndex[index]);
                                   setState(() {
-                                    customTextButtonColor[index] = Colors.amber;
+                                    customTextButtonColor[index];
                                   });
                                 },
                                 child: Icon(
